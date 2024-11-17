@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+        <div class="nav-mid">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="blog.html">
+                    <li>Blog</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+            </ul>
+        </div>
+        <div id="reach-me">
+            <a href="contact.html"><button> Reach Me</button></a>
+        </div>
+    </header>
+    <div class="heading">
+        <h1>About Me </h1>
+        <p>An independent and self-motivated graduate. Helps in problem-solving and increasing business. Able to learn new
+            technologies quickly as per requirement, eager to contribute to team success through smart work and dedication to
+            a task. Interest in UI/UX design. Love web development, designing, solving questions, and social working. Motivated
+            to learn, grow and excel</p>
+        <div class="socialmedias">
+            <p>If you have any suggestion to improve my website design. You can contact me on my social medias : </p>
+            <strong>
+            <a class="ins-text" href="#">Instagram</a>
+            <a class="ins-text" href="#">Twitter</a>
+            <a class="ins-text" href="#">linkedIn</a>
+            <a class="ins-text" href="#">Email Me</a>
+            </strong>
+
+
+        </div>
+    </div>
+    <hr>
+
+    <script>
+        let menuList = document.getElementById("menuList");
+        menuList.style.display = "none";
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "150px"
+                menuList.style.display = "block";
+
+            } else {
+                menuList.style.maxHeight = "0px"
+                menuList.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

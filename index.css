@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menuList {
+    padding-left: 0;
+}
+
+
+.top {
+    background-color: rgba(232, 240, 254, 0.502);
+    border: 1px solid white;
+    color: blue;
+    text-align: center;
+}
+
+.left {
+    /* border: 2px solid green; */
+    /* padding: 5px; */
+    text-align: center;
+    display: inline-block;
+    width: 15%;
+    position: relative;
+    left: 10px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+}
+
+.menu-icon {
+    height: 50px;
+    display: none;
+}
+
+button {
+    border: none;
+    float: right;
+    margin: -37px 50px 0 0;
+    color: white;
+    background-color: black;
+    padding: 12px 23px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "poppins";
+    transition: .1s ease;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.nav-mid ul {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-top: -25px;
+}
+
+.nav-mid li {
+    list-style: none;
+    margin: 0 10px;
+    font-family: "Poppins";
+    font-size: 17px;
+    transition: .2s ease;
+}
+
+.nav-mid li:hover {
+    color: red;
+}
+
+.mid {
+    /* border: 2px solid red; */
+    padding: 0px;
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    left: 20%;
+    font-family: 'Cinzel', serif;
+    font-kerning: 500;
+}
+
+.right {
+    /* border: 2px solid black; */
+    padding: 5px;
+    display: inline-block;
+    width: 15%;
+    position: relative;
+    left: 550px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+.container {
+    color: black;
+    margin-top: 43px;
+}
+
+.mid {
+    margin-bottom: 39px;
+}
+
+.mid ul li {
+    display: flex;
+    padding-left: 29px;
+}
+
+.mid ul li :hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.mid ul {
+    display: flex;
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.2s ease-in-out;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.heading img {
+    width: 400px;
+    margin: auto;
+}
+
+.heading p {
+    color: rgb(85, 85, 85);
+    width: 500px;
+    /* border: solid; */
+    margin: auto;
+}
+
+.tlines {
+    width: 1%;
+    position: relative;
+    top: -200px;
+}
+
+.smid {
+    display: none;
+}
+
+.hi {
+    width: 10%;
+    margin: 0 44%
+}
+
+.btn2 {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .right {
+        display: none;
+    }
+    .profile {
+        width: 100px;
+        margin-top: 32px;
+    }
+    .mid {
+        display: none;
+    }
+    .left {
+        font-size: 20px;
+    }
+    .archan {
+        margin: auto;
+    }
+    .heading img {
+        width: 308px;
+        display: block;
+        margin: auto;
+    }
+    .heading {
+        width: 300px;
+        /* border: solid; */
+        margin: auto;
+    }
+    .heading p {
+        width: 290px;
+        /* border: 1px solid black; */
+        font-size: 15px;
+        margin: auto;
+    }
+    .tlines {
+        float: right;
+        width: 10%;
+        margin-top: 120px;
+    }
+    .mid .plink {
+        display: flex;
+        margin: auto;
+        width: 100%;
+    }
+    .plink {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        margin: auto;
+        padding: 5px 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .smid {
+        display: block;
+        text-align: center;
+    }
+    .nouse {
+        color: black;
+    }
+    .smid ul {
+        display: block;
+        text-decoration: none;
+        list-style: none;
+        width: 100%;
+        margin: auto;
+        background-color: black;
+        transition: .5s;
+        padding: 0;
+    }
+    .smid ul li {
+        color: white;
+        margin: 5px 0;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .menu-icon {
+        display: block;
+        height: 50px;
+        float: right;
+        margin-top: -40px;
+        margin-right: 0px;
+    }
+    .nav-mid {
+        display: none;
+    }
+    button {
+        display: none;
+    }
+    .dumy {
+        width: 10%;
+        margin: 0px;
+    }
+    .change {
+        display: block;
+    }
+}
